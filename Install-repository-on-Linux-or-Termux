@@ -1,0 +1,22 @@
+Install Repos on Termux (get from Google Play store)
+
+ apt-get install root-repo -y
+ apt-get install unstable-repo -y
+ apt-get install x11-repo -y
+ 
+ All in one command:
+ apt-get install root-repo -y && apt-get install unstable-repo -y && apt-get install x11-repo -y
+ 
+ (Doing apt-get or just typing apt uses less Megabytes than pkg)
+ 
+ Install Repos on Linux (crostini, ubuntu, debian)
+ 
+ sudo apt install root-repo -y 
+ sudo apt install unstable-repo -y
+ sudo apt install x11-repo
+ 
+ All in one command:
+ sudo apt install root-repo -y && sudo apt install unstable-repo -y && sudo apt install x11-repo
+ 
+
+ 
